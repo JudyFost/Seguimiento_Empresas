@@ -1,0 +1,108 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+#header{
+	width: 100%;
+	height: 15%;
+	background-color:#ECEAE8;
+}
+#cabecera{
+	width: 100%;
+	height: 100%;
+}
+#menu{
+
+}
+#container{
+	padding-top: 30px;
+	padding-left: 20px;
+}
+
+#div_resultado{
+	padding-top: 25px;
+}
+#formloginusuario{
+    padding-left: 5px;
+    padding-top: 104px;
+    font-size:30px;
+    font-family: Arial;
+    color:#0B0B3B;
+    text-align: left;
+    border-radius: 6px;
+}
+#input,#usuario,#password{
+    padding-left: 5px;
+    padding-top: 4px;
+    font-size:30px;
+    font-family: Arial;
+    color:#0B0B3B;
+    text-align: left;
+    border-radius: 6px;
+}
+#boton{
+    font-size:30px;
+    padding-top: 4px;
+    font-family: Arial;
+    color:#0B0B3B;
+    text-align: left;
+    border-radius: 6px;
+    border-color: black;
+}
+.boton{
+    text-align:center;
+    text-decoration: none;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    display:inline-block;
+    color: #FFF;
+    background: #7F8C8D;
+    padding: 8px 20px;
+    white-space: nowrap;
+    border-radius: 5px;
+    margin: 10px 5px;
+            
+} 
+.boton:hover{
+    background: #000000;
+            
+}     
+h1{
+	font-family:Arial, Helvetica, sans-serif;
+    font-size:30px;
+    font-weight:bold;
+	padding-top: 5px;
+	padding-bottom: 8px;
+	padding-left: 20px;
+	text-align: left;
+	text-shadow: 0px 1px 0px #FFF;
+}
+nav ul{
+    list-style:none;
+    margin:0 10px 0 10px;
+    padding:0;
+}
+nav ul li{
+    border-radius:5px;
+    float:left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight:bold;
+    margin-right:10px;
+    text-align:right;
+    text-shadow: 0px 1px 0px #FFF;
+}
+nav ul li:hover{
+    box-shadow:  1px -1px 0px #999;
+    border:0px solid #E3E3E3;
+    border-left: 1px solid #E3E3E3;
+}
+nav ul li a{
+    color:#999;
+    display:block;
+    padding:10px;
+    text-decoration:none;
+}
+nav ul li a:hover {
+	color:#000;
+}
